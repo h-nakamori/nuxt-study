@@ -1,3 +1,5 @@
+
+
 <template>
   <svg
     class="nuxt-logo"
@@ -11,9 +13,15 @@
     />
   </svg>
 </template>
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+export default class NuxtLogo extends Vue {
 
+}
+</script>
 <style>
 .nuxt-logo {
+  margin-top: 30px;
   height: 180px;
 }
 </style>
